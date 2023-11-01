@@ -4,21 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d0719fc-f734-4d59-a8ff-6d144ff77b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="2d0719fc-f734-4d59-a8ff-6d144ff77b46" name="Changes" comment="primer commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/ControlBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/Chrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/FactoryBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/FireFox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/IBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/CentralSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/LoginSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/MenuSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/ProjectSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/SettingsSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/AddProjectPopUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/CentralProjectSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/EditProjectPopUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/LateralProjectSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/MainTodoistPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/singletonSession/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/webTest/CreateUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +84,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/ignacio lizarazu/Documents/Apuntes y Trabajos/QA/movile eynar/Final-verificacion/src/test/java"
+    "last_opened_file_path": "C:/Users/ignacio lizarazu/Documents/Apuntes y Trabajos/QA/movile eynar/Final-verificacion/src"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ignacio lizarazu\Documents\Apuntes y Trabajos\QA\movile eynar\Final-verificacion\src" />
       <recent name="C:\Users\ignacio lizarazu\Documents\Apuntes y Trabajos\QA\movile eynar\Final-verificacion\src\test\java" />
       <recent name="C:\Users\ignacio lizarazu\Documents\Apuntes y Trabajos\QA\movile eynar\Final-verificacion\src\test\resources\chrome" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.CreateUserTest">
     <configuration name="CreateUpdateDeleteTaskTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,8 +118,32 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CreateUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.webTest.CreateUserTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateUserTest" />
         <item itemvalue="Gradle.CreateUpdateDeleteTaskTest" />
       </list>
     </recent_temporary>
@@ -118,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1698846462157</updated>
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <created>1698861778663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698861778664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,5 +177,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
   </component>
 </project>
